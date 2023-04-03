@@ -1,0 +1,9 @@
+package inheritance;
+
+public class B extends A {
+
+	B(){}
+	void display(){
+		System.out.println("Its B");
+	}
+}

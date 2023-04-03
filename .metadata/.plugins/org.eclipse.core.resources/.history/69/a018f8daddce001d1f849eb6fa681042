@@ -1,0 +1,20 @@
+package sampleClass;
+
+import java.util.Scanner;
+
+public class Sample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Add one = new Add();
+		Scanner sc = new Scanner(System.in);
+		one.a = sc.nextInt();
+		one.b = sc.nextInt();
+		one.sum();
+		one.display();
+		sc.close();
+		
+	}
+
+}
